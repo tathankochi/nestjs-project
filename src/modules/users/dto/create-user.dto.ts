@@ -12,12 +12,9 @@ export class CreateUserDto {
     password: string;
 
     @IsOptional()
-    @IsString()
     phone: string;
     @IsOptional()
-    @IsString()
     address: string;
     @IsOptional()
-    @IsString()
     image: string;
 }
